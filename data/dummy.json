@@ -1,0 +1,33 @@
+[
+   {
+      "eventType":"created",
+      "orderId":"firstOrder",
+      "orderDate":"2020-05-04",
+      "promisedShipDate":"2020-05-20",
+      "promisedDeliveryDate":"2020-05-22"
+   },
+   {
+      "eventType":"shipped",
+      "orderId":"firstOrder",
+      "actualShipDate":"2020-05-18"
+   },
+   {
+      "eventType":"delivered",
+      "orderId":"firstOrder",
+      "actualDeliveryDate":"2020-05-21"
+   },
+   {
+      "eventType":"cancelled",
+      "orderId":"firstOrder",
+      "cancellationOrigin":"buyer"
+
+   },
+   {
+      "eventType":"returned",
+      "orderId":"firstOrder",
+      "returnStatus":"false"
+   }
+
+
+   
+]

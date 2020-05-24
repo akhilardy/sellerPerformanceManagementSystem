@@ -1,0 +1,22 @@
+{
+  "name": "sellerperformancesystem",
+  "version": "1.0.0",
+  "description": "This application can be used to monitor the seller performance",
+  "main": "kafka_consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akhila",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.4.0",
+    "deep-diff": "^1.0.2",
+    "fs": "0.0.1-security",
+    "kafka-node": "^5.0.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.11",
+    "path": "^0.12.7",
+    "pm2": "^4.4.0",
+    "validator": "^13.0.0"
+  }
+}
